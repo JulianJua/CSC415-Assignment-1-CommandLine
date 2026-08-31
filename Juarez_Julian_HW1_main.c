@@ -14,6 +14,7 @@
 #include <stdio.h> 
 
 int main(int args, char *argv[]) { // array of pointers, C has no string type, so we use char pointers to represent strings
+	printf("\n");
 	printf("There were %d arguments on the command line.\n", args); 
 	
 	for (int i = 0; i < args; i++) { // loop from 0 to args - 1, staying within bounds of the array
